@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    /*background-image: URL('https://upload.wikimedia.org/wikipedia/commons/5/53/Damascus%2C_Syria%2C_Panoramic_view_of_Damascus.jpg');*/
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;      
+    margin: 0;      
+}
+
+.header-bar {
+    height: 75px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgba(165, 122, 30, 0);
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Mohave', sans-serif;
+}
+
+.image {
+    height: 650px;
+    background-image: URL('https://upload.wikimedia.org/wikipedia/commons/5/53/Damascus%2C_Syria%2C_Panoramic_view_of_Damascus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.paragrafo-sobre {
+  box-shadow: 10px 10px;
+    width: 400px;
+    height: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    float: right;
+    margin-top: -520px;
+    margin-right: 200px;
+    padding: 40px 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.about {
+  background-color: rgb(24, 219, 138);
+  padding: 10px 0px;
+  margin: 0px 0px;
+  color: white;
+  font-family: 'comforta';
+}
+
+.video-section  {
+  margin-top: 50px;
+}
+
+iframe {
+    margin-top: -300px;
+    margin-left: 100px;
+    border: 1px black solid;
+    box-shadow: 10px 10px;
+    z-index: 1;
+}
+
+.green-box1{
+  height: 300px;
+  width: 300px;
+  margin: 50px 50px;
+  background-color: rgb(24, 219, 138);
+  z-index: -1;
+}
+
+.green-box2{
+  height: 300px;
+  width: 300px;
+  margin: -240px 80px;
+  float: right;
+  background-color: rgb(24, 219, 138);
+  z-index: -1;
+}
+
+.curiosidade-div {
+  margin: 10px 0px 0px;
+}
+
+.curiosidade-list{
+  height: 300px;
+  width: auto;
+  margin: 0px 0px 0px;
+  background-color: rgb(24, 219, 138);
+}
+
+ul {
+  list-style-type: upper-roman;
+}
+
+li {
+  margin: 80px 50px 0px;
+  width: 350px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  float: left;
+}
+
+.icon-menu {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.icon-menu a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.icon-menu a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.youtube {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.instagram {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.facebook {
+  background-color: #ffffff;
+}
+
+footer {
+    position:relative; 
+    margin: 0px 0px 0px;
+    padding: 20px 0px 0px;
+    bottom:0; 
+    width:100%; 
+    height:50px; 
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
