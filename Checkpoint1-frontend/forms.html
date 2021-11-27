@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "style.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cadastra-se</title>
+</head>
+
+<header>
+    <div class = "header-bar">CADASTRAR-SE</div>
+    <p>Se cadastre no nosso site e fique ligado em todas as novidades.</p>
+</header>
+
+<body>
+    <div class = "image" style="height: 900px; width: 100%; float: right; background-image: URL('https://media-cdn.tripadvisor.com/media/photo-c/1280x250/07/9f/82/6e/krak-des-chevalier.jpg');"></div>
+    <form>
+        <fieldset form="user-info">
+            <legend>Insira suas informações</legend>
+                <div>
+                    <input type="text" id="fname" name="fname" placeholder="Primeiro nome" maxlength="100">
+                <div>
+            
+                <div>
+                    <input type="email" id="email" name="email" placeholder="E-mail">
+                </div>
+
+                <div>
+                    <input type="tel" id="telefone" name="telefone" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="Número de telefone">
+                </div>
+
+                <div>
+                    <input type="date" id="dateofBirth" name="date">
+                </div>
+
+                <div>
+                    <label for="aboveAge">Você é maior de Idade?</label><br>
+                    <input type="radio" name="aboveAge" value="sim"><label>Sim</label></input><br>
+                    <input type="radio" name="aboveAge" value="não"><label>Não</label></input>
+                </div>
+
+                <div class="select" style="width:300px;">
+                    <label for="pontoInterese" style="margin-top: 20px;">Onde você gostaria de visitar?</label><br>
+                    <select name="option" id="pontoInterese">
+                        <option value="Damasco">Damasco</option>
+                        <option value="Tartus">Tartus</option>
+                        <option value="Aleppo">Aleppo</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="checkbox">Pelos quais motivos você visitaria?</label><br>
+                    <input type="checkbox" id="turismo" name="turismo" value="tur">
+                    <label for="turismo">Turismo</label><br>
+                    <input type="checkbox" id="educacao" name="educacao" value="edu">
+                    <label for="educacao">Educação</label><br>
+                    <input type="checkbox" id="residencia" name="residencia" value="res">
+                    <label for="residencia">Residencia</label><br>
+                </div>
+                
+                <div class="reset-send-button">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+        </fieldset>
+    </form>
+</body>
