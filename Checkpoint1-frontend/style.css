@@ -113,6 +113,7 @@ li {
 p {
     text-align: center;
     font-family:'Mohave', sans-serif;
+    margin-bottom: 12px;
 }
 
 .icon-menu {
