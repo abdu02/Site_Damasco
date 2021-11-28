@@ -110,6 +110,10 @@ li {
   font-family: 'Mohave', sans-serif;
 }
 
+p {
+    text-align: center;
+    font-family:'Mohave', sans-serif;
+}
 
 .icon-menu {
   position: fixed;
